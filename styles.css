@@ -38,9 +38,12 @@ img{
     height: 100%;
     margin-top: 20px;
 }
-.first,.second,.third,.forth{
+.numpad{
     display:flex;
-    height:25%
+    flex-wrap: wrap;
+}
+.numpad>div{
+    height: 11vh;
 }
 .bottom>div>div{
     width:33%;
