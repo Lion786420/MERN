@@ -21,18 +21,19 @@
     flex-direction: column;
     padding: 20px;
 }
-.top{
+.up{
     height: 20vh;
     border-radius: 10px;
     background-color: rgb(183, 191, 191);
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    color: black;
+    font-size: 30px;
+    flex-direction: row;
 }
 img{
     height:60px;
     width: auto;
-    margin-right: 20px;
 }
 .bottom{
     height: 100%;
@@ -51,4 +52,7 @@ img{
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+}
+.top{
+    flex:5;
 }
